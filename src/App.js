@@ -11,7 +11,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/react-router">
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
